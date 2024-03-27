@@ -37,7 +37,7 @@ resumoSemanal = pd.read_parquet('resumoSemanal.parquet.gzip')
 
 geod = Geod(ellps="WGS84")  # Your data may be from a different Geod.
 
-gmaps = googlemaps.Client(key='AIzaSyBkyO5wbc1eAJ_sDg86VM-_4zhC7k_YHd4')
+gmaps = googlemaps.Client(key='')
 
 st.title('Otimização de Rotas')
 
