@@ -146,7 +146,7 @@ def optim(cities, veiculo):
                 #remove cidade anteriores
                 cities = list(filter(lambda auxcity: auxcity['distanceOrigin'] > auxCity['distanceOrigin'], cities))
             
-    response['status'] = '02'
+    #response['status'] = '02'
     response['cities'] = listStopsCities
     
     return response

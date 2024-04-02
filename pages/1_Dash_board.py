@@ -15,23 +15,6 @@ st.set_page_config(
     page_title="Otimização de Rotas"
 )
 
-# with st.sidebar:
-#     st.button('Otimizar Rota')
-#     st.button('Painel Analitico')
-
-
-# page_names_to_funcs = {
-#     "—": intro,
-#     "Otimizar Rota": plotting_demo,
-#     "Painel Analitico": mapping_demo,
-#     "DataFrame Demo": data_frame_demo
-# }
-
-# demo_name = st.sidebar.selectbox("Choose a demo", page_names_to_funcs.keys())
-# page_names_to_funcs[demo_name]()
-
-
-
 municipios = pd.read_excel("municipios.xls")
 resumoSemanal = pd.read_parquet('resumoSemanal.parquet.gzip')
 
